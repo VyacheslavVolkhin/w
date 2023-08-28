@@ -1,5 +1,65 @@
-<script src="./js/jquery.min.js"></script>
-<script src="./js/jquery.fancybox.min.js"></script>
-<script src="./js/slick.min.js"></script>
-<script src="./js/jquery.maskedinput.min.js"></script>
-<script src="./js/scripts.js"></script>
+
+<script src="./index_files/jquery.min.js"></script>
+<script defer="" src="./index_files/jquery.fancybox.min.js"></script>
+<script defer="" src="./index_files/slick.min.js"></script>
+<script defer="" src="./index_files/jquery.maskedinput.min.js"></script>
+<script defer="" src="./index_files/scripts.js"></script>
+<!-- Rockform -->
+<link media="all" onload="if(media!=&#39;all&#39;)media=&#39;all&#39;" href="./index_files/main.css" rel="stylesheet">
+<script defer="" src="./index_files/jquery.form.min.js"></script>
+<script defer="" src="./index_files/baseform.js"></script>
+<!-- // Rockform -->
+<a href="https://stolitsaprint.ru/#" class="scrollToTop"></a>
+<style>
+    .scrollToTop {
+        position: fixed;
+        bottom: 60px;
+        right: 40px;
+        display: none;
+        border: 1px solid #fd2222;
+        border-radius: 50%;
+        width: 40px;
+        height: 40px;
+        background: white;
+    }
+
+    .scrollToTop::before {
+        border-style: solid;
+        border-width: 0.2em 0.2em 0 0;
+        content: '';
+        display: inline-block;
+        height: 15px;
+        left: 12px;
+        position: relative;
+        top: 14px;
+        transform: rotate(-45deg);
+        vertical-align: top;
+        width: 15px;
+        border-color: #fd2222;
+    }
+
+    .scrollToTop:hover {
+        background-color: #fd2222;
+    }
+
+    .scrollToTop:hover::before {
+        border-color: white;
+    }
+</style>
+<script defer="">
+	$(window).scroll(function () {
+		if ($(this).scrollTop() > 600) {
+			$('.scrollToTop').fadeIn();
+		} else {
+			$('.scrollToTop').fadeOut();
+		}
+	});
+
+	//Click event to scroll to top
+	$('.scrollToTop').click(function () {
+		$('html, body').animate({scrollTop: 0}, 800);
+		return false;
+	});
+</script>
+<script src="./index_files/lazyload.min.js"></script>
+<script>var lazyLoadInstance = new LazyLoad();</script>
