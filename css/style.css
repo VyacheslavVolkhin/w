@@ -153,8 +153,11 @@
 .item-tile-type:hover .tile-price {
   color: #ff0000;
 }
-.item-tile-type:hover .tile-title {
-  text-decoration: underline;
+.item-tile-type:hover .tile-title-text {
+  border-bottom: 1px solid #aaaaaa;
+}
+.item-tile-type:hover.tile-add .tile-title-text {
+  border-bottom: none;
 }
 .item-tile-type .tile-price-wrap {
   display: block;
@@ -185,6 +188,9 @@
   transition: color ease 0.2s;
   display: block;
 }
+.item-tile-type .tile-title-text {
+  display: inline;
+}
 @supports (object-fit:contain) {
   .item-tile-type .elm-photo.photo-contain img,
   .card-tile-box .elm-photo.photo-contain img {
@@ -212,7 +218,7 @@
   width: 48px;
   width: 3rem;
   height: 2px;
-  background: #808080;
+  background: #c4c4c4;
   transition: background ease 0.2s;
   margin: 3px 3px 0 3px;
 }
@@ -548,7 +554,7 @@
   display: block;
   width: 24px;
   height: 24px;
-  background: url(../img/icons/attach.svg) center no-repeat;
+  background: url(../img/attach.svg) center no-repeat;
   transform: rotate(-45deg);
   background-size: auto 100%;
   position: absolute;
@@ -593,6 +599,25 @@
 .card-tile-box .h2-title {
   font-size: 36.768px;
   font-size: 2.298rem;
+}
+.card-tile-box select.form-input {
+  background-image: url(../img/arrow-sel.png);
+  background-position: right 10px center;
+  background-repeat: no-repeat;
+  background-size: 2.4rem auto;
+  text-overflow: ellipsis;
+  padding-right: 30px;
+}
+.card-tile-box .frm-select label:before,
+.card-tile-box .frm-select label:after {
+  width: 14px;
+  height: 14px;
+  left: 0;
+  margin-top: 2px;
+}
+.card-tile-box .frm-select label:after {
+  background-color: #0067ff;
+  background-size: 8px auto;
 }
 .catalog-box.section-second .btn-menu {
   font-size: 28.8px;

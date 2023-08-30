@@ -879,7 +879,7 @@ body, html {
         margin: -5px -9px 0 0;
         -webkit-filter: brightness(0) invert(1);
         filter: brightness(0) invert(1);
-        background: url(/template/imgs/arrow-select.svg) 50%/24px auto no-repeat;
+        background: url(https://stolitsaprint.ru/template/imgs/arrow-select.svg) 50%/24px auto no-repeat;
         -webkit-transform: rotate(-90deg);
         transform: rotate(-90deg)
     }
@@ -1188,7 +1188,7 @@ body, html {
 
     .nav .menu > li.menu-catalog .btn-menu:before {
         content: "";
-        background-image: url(/template/imgs/spr.png);
+        background-image: url(https://stolitsaprint.ru/template/imgs/spr.png);
         background-position: -40px -91px;
         width: 26px;
         height: 14px;
@@ -1237,7 +1237,7 @@ body, html {
         content: "";
         display: inline-block;
         vertical-align: middle;
-        background: url(/template/imgs/arrow-select.svg) 50%/100% auto no-repeat;
+        background: url(https://stolitsaprint.ru/template/imgs/arrow-select.svg) 50%/100% auto no-repeat;
         width: 18px;
         height: 10px;
         margin: -2px 0 0 2px;
@@ -1438,7 +1438,7 @@ body, html {
     }
 
     .header .frm-main-search .btn-action-ico.ico-search:before {
-        background: url(/template/imgs/search.svg) 50%/24px auto no-repeat;
+        background: url(https://stolitsaprint.ru/template/imgs/search.svg) 50%/24px auto no-repeat;
         width: 100%;
         height: 100%
     }
@@ -1584,7 +1584,7 @@ body, html {
     }
 
     .nav .menu > li.menu-catalog .btn-menu:before {
-        background-image: url(/template/imgs/spr.png);
+        background-image: url(https://stolitsaprint.ru/template/imgs/spr.png);
         background-position: -188px 0;
         width: 18px;
         height: 10px;
@@ -1822,7 +1822,7 @@ body, html {
 }
 
 .elm-rate.rate-empty:before, .elm-rate:before, .icon-rate-empty, .icon-rate-full {
-    background-image: url(/template/imgs/spr.png);
+    background-image: url(https://stolitsaprint.ru/template/imgs/spr.png);
     width: 20px;
     height: 19px
 }
@@ -1986,7 +1986,7 @@ body, html {
 
 .item-delivery .del-title-wrap:after {
     content: "";
-    background-image: url(/template/imgs/spr.png);
+    background-image: url(https://stolitsaprint.ru/template/imgs/spr.png);
     background-position: -114px -131px;
     width: 18px;
     height: 10px;
@@ -2061,7 +2061,7 @@ body, html {
 
 .item-faq .btn-faq:before {
     content: "";
-    background: url(/template/imgs/arrow-select.svg) 50%/150% auto no-repeat;
+    background: url(https://stolitsaprint.ru/template/imgs/arrow-select.svg) 50%/150% auto no-repeat;
     width: 18px;
     height: 10px;
     position: absolute;
@@ -3141,7 +3141,7 @@ body, html {
 
 .menu-box .menu-inner-wrap li a:before {
     content: "";
-    background-image: url(/template/imgs/spr.png);
+    background-image: url(https://stolitsaprint.ru/template/imgs/spr.png);
     background-position: 0 -47px;
     width: 22px;
     height: 24px;
@@ -3194,7 +3194,7 @@ body, html {
 
 .menu-box .btn-menu:after {
     content: "";
-    background-image: url(/template/imgs/spr.png);
+    background-image: url(https://stolitsaprint.ru/template/imgs/spr.png);
     background-position: -114px -131px;
     width: 18px;
     height: 10px;
@@ -3691,7 +3691,7 @@ body, html {
     }
 
     .menu-box .btn-menu:after {
-        background-image: url(/template/imgs/spr.png);
+        background-image: url(https://stolitsaprint.ru/template/imgs/spr.png);
         background-position: -188px -30px;
         width: 12px;
         height: 7px;
@@ -3965,7 +3965,7 @@ body, html {
 }
 
 .btn-action-more:before, .icon-arrow-menu, .icon-arrow-menu-small, .icon-arrow-more, .icon-arrow-submenu, .icon-blank, .icon-button-send, .icon-button-tg, .icon-check, .icon-menu, .icon-menu-small, .icon-phone, .icon-phone-dark, .icon-phone-small, .icon-review {
-    background-image: url(/template/imgs/spr.png)
+    background-image: url(https://stolitsaprint.ru/template/imgs/spr.png)
 }
 
 .btn-action-ico.btn {
@@ -4003,7 +4003,7 @@ body, html {
 }
 
 .btn-action-ico.ico-search:before {
-    background-image: url(/template/imgs/search.svg);
+    background-image: url(https://stolitsaprint.ru/template/imgs/search.svg);
     background-size: 24px auto
 }
 
@@ -4052,7 +4052,7 @@ body, html {
 }
 
 .btn-action-ico.ico-arrow:before {
-    background-image: url(/template/imgs/arrow-slider.png);
+    background-image: url(https://stolitsaprint.ru/template/imgs/arrow-slider.png);
     background-size: auto 8.7rem
 }
 
@@ -4158,7 +4158,7 @@ body, html {
 }
 
 .frm-select label:after {
-    background: url(/template/imgs/check.svg) 50%/13px auto no-repeat #fd2222;
+    background: url(https://stolitsaprint.ru/template/imgs/check.svg) 50%/13px auto no-repeat #fd2222;
     opacity: 0;
     z-index: 2
 }
@@ -4469,8 +4469,8 @@ body, html {
 @font-face {
     font-display: swap;
     font-family: Proxima Nova;
-    src: url(/template/fonts/ProximaNova-Regular.eot);
-    src: local("Proxima Nova Regular"), local("ProximaNova-Regular"), url(/template/fonts/ProximaNova-Regular.eot?#iefix) format("embedded-opentype"), url(/template/fonts/ProximaNova-Regular.woff) format("woff"), url(/template/fonts/ProximaNova-Regular.ttf) format("truetype");
+    src: url(https://stolitsaprint.ru/template/fonts/ProximaNova-Regular.eot);
+    src: local("Proxima Nova Regular"), local("ProximaNova-Regular"), url(https://stolitsaprint.ru/template/fonts/ProximaNova-Regular.eot?#iefix) format("embedded-opentype"), url(https://stolitsaprint.ru/template/fonts/ProximaNova-Regular.woff) format("woff"), url(https://stolitsaprint.ru/template/fonts/ProximaNova-Regular.ttf) format("truetype");
     font-weight: 400;
     font-style: normal
 }
@@ -4478,8 +4478,8 @@ body, html {
 @font-face {
     font-display: swap;
     font-family: Proxima Nova;
-    src: url(/template/fonts/ProximaNova-Semibold.eot);
-    src: local("Proxima Nova Semibold"), local("ProximaNova-Semibold"), url(/template/fonts/ProximaNova-Semibold.eot?#iefix) format("embedded-opentype"), url(/template/fonts/ProximaNova-Semibold.woff) format("woff"), url(/template/fonts/ProximaNova-Semibold.ttf) format("truetype");
+    src: url(https://stolitsaprint.ru/template/fonts/ProximaNova-Semibold.eot);
+    src: local("Proxima Nova Semibold"), local("ProximaNova-Semibold"), url(https://stolitsaprint.ru/template/fonts/ProximaNova-Semibold.eot?#iefix) format("embedded-opentype"), url(https://stolitsaprint.ru/template/fonts/ProximaNova-Semibold.woff) format("woff"), url(https://stolitsaprint.ru/template/fonts/ProximaNova-Semibold.ttf) format("truetype");
     font-weight: 600;
     font-style: normal
 }
@@ -4487,8 +4487,8 @@ body, html {
 @font-face {
     font-display: swap;
     font-family: Proxima Nova;
-    src: url(/template/fonts/ProximaNova-Black.eot);
-    src: local("Proxima Nova Black"), local("ProximaNova-Black"), url(/template/fonts/ProximaNova-Black.eot?#iefix) format("embedded-opentype"), url(/template/fonts/ProximaNova-Black.woff) format("woff"), url(/template/fonts/ProximaNova-Black.ttf) format("truetype");
+    src: url(https://stolitsaprint.ru/template/fonts/ProximaNova-Black.eot);
+    src: local("Proxima Nova Black"), local("ProximaNova-Black"), url(https://stolitsaprint.ru/template/fonts/ProximaNova-Black.eot?#iefix) format("embedded-opentype"), url(https://stolitsaprint.ru/template/fonts/ProximaNova-Black.woff) format("woff"), url(https://stolitsaprint.ru/template/fonts/ProximaNova-Black.ttf) format("truetype");
     font-weight: 900;
     font-style: normal
 }
@@ -4496,8 +4496,8 @@ body, html {
 @font-face {
     font-display: swap;
     font-family: Proxima Nova;
-    src: url(/template/fonts/ProximaNova-Bold.eot);
-    src: local("Proxima Nova Bold"), local("ProximaNova-Bold"), url(/template/fonts/ProximaNova-Bold.eot?#iefix) format("embedded-opentype"), url(/template/fonts/ProximaNova-Bold.woff) format("woff"), url(/template/fonts/ProximaNova-Bold.ttf) format("truetype");
+    src: url(https://stolitsaprint.ru/template/fonts/ProximaNova-Bold.eot);
+    src: local("Proxima Nova Bold"), local("ProximaNova-Bold"), url(https://stolitsaprint.ru/template/fonts/ProximaNova-Bold.eot?#iefix) format("embedded-opentype"), url(https://stolitsaprint.ru/template/fonts/ProximaNova-Bold.woff) format("woff"), url(https://stolitsaprint.ru/template/fonts/ProximaNova-Bold.ttf) format("truetype");
     font-weight: 700;
     font-style: normal
 }
@@ -4505,8 +4505,8 @@ body, html {
 @font-face {
     font-display: swap;
     font-family: Proxima Nova;
-    src: url(/template/fonts/ProximaNova-Light.eot);
-    src: local("Proxima Nova Light"), local("ProximaNova-Light"), url(/template/fonts/ProximaNova-Light.eot?#iefix) format("embedded-opentype"), url(/template/fonts/ProximaNova-Light.woff) format("woff"), url(/template/fonts/ProximaNova-Light.ttf) format("truetype");
+    src: url(https://stolitsaprint.ru/template/fonts/ProximaNova-Light.eot);
+    src: local("Proxima Nova Light"), local("ProximaNova-Light"), url(https://stolitsaprint.ru/template/fonts/ProximaNova-Light.eot?#iefix) format("embedded-opentype"), url(https://stolitsaprint.ru/template/fonts/ProximaNova-Light.woff) format("woff"), url(https://stolitsaprint.ru/template/fonts/ProximaNova-Light.ttf) format("truetype");
     font-weight: 300;
     font-style: normal
 }
@@ -4600,7 +4600,7 @@ body, html {
 }
 
 .icon-search, .icon-soc-tg, .icon-soc-wa {
-    background-image: url(/template/imgs/spr.png);
+    background-image: url(https://stolitsaprint.ru/template/imgs/spr.png);
     width: 18px
 }
 

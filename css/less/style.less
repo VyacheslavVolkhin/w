@@ -134,8 +134,14 @@
         .tile-price {
             color: #ff0000;
         }
-        .tile-title {
-            text-decoration: underline;
+        .tile-title-text {
+            //text-decoration: underline;
+            border-bottom: 1px solid #aaaaaa;
+        }
+        &.tile-add {
+            .tile-title-text {
+                border-bottom: none;
+            }
         }
     }
     .tile-price-wrap {
@@ -164,7 +170,8 @@
         transition: color ease 0.2s;
         display: block;
     }
-    .tile-title {
+    .tile-title-text {
+        display: inline;
     }
 }
 @supports ((-o-object-fit:contain) or (object-fit:contain)) {
@@ -194,7 +201,7 @@
         display: block;
         width: 3rem;
         height: 2px;
-        background: #808080;
+        background: #c4c4c4;
         transition: background ease 0.2s;
         margin: 3px 3px 0 3px;
         &.active {
@@ -497,7 +504,7 @@
         display: block;
         width: 24px;
         height: 24px;
-        background: url(../img/icons/attach.svg) center no-repeat;
+        background: url(../img/attach.svg) center no-repeat;
         transform: rotate(-45deg);
         background-size: auto 100%;
         position: absolute;
@@ -534,6 +541,28 @@
     }
     .h2-title {
         font-size: 2.298rem;
+    }
+    select.form-input {
+        background-image: url(../img/arrow-sel.png);
+        background-position: right 10px center;
+        background-repeat: no-repeat;
+        background-size: 2.4rem auto;
+        text-overflow: ellipsis;
+        padding-right: 30px;
+    }
+    .frm-select {
+        label {
+            &:before, &:after {
+                width: 14px;
+                height: 14px;
+                left: 0;
+                margin-top: 2px;
+            }
+            &:after {
+                background-color: #0067ff;
+                background-size: 8px auto;
+            }
+        }
     }
 }
 .catalog-box {
@@ -645,3 +674,4 @@
         }
     }
 }
+
